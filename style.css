@@ -1,0 +1,84 @@
+body{
+	background: white;
+	color: #16425B;
+	font-family: "Source Sans 3", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	margin: 75px;
+	
+}
+h1, h2, h3{
+	font-family: "Nunito", sans-serif;
+}
+h1{
+	color: 	#16425B;
+	font-weight: 800;
+	font-size: 32px;
+}
+h2{
+	color: #81C3D7;
+	font-weight: 600;
+	font-size: 24px;
+}
+a{
+	font-family: "Nunito", sans-serif;
+	text-decoration: none;
+	color: rgb(2, 36, 150);
+}
+a:hover{
+	color: #16425B;
+}
+
+.img-circle{
+	border-radius: 50%;
+	width: 125px;
+	height: 125px;
+}
+.box-grey{
+	background: #D9DCD6;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 30px;
+    box-shadow: 0px 10px 30px rgba(150, 150, 150, 0.5);
+}
+
+.box-total{
+	width: 700px;
+    margin: 10px auto;
+}
+@media (max-width: 760px){
+	.box-total{
+		width: 600px;
+	}
+}
+@media (max-width: 500px){
+	.box-total{
+		width: 400px;
+	}
+}
+.btn-orange{
+	color: white;
+	background-color: rgb(245, 118, 39);
+	padding: 5px 7.5px;
+	border-radius: 5px;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 15px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: white;
+}
+.list-inline i:hover{
+	font-size: 55px;
+	color: #16425B;
+}
+#btn-margin{
+	margin-bottom: 5px;
+}
